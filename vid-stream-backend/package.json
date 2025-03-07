@@ -1,0 +1,26 @@
+{
+  "name": "vid-stream-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node ./src/main.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "drizzle-kit": "^0.30.5",
+    "prisma": "^6.4.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.11.3",
+    "@prisma/client": "^6.4.1",
+    "dotenv": "^16.4.7",
+    "drizzle-orm": "^0.40.0",
+    "graphql": "^16.10.0",
+    "mysql2": "^3.13.0"
+  }
+}
