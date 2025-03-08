@@ -2,7 +2,7 @@ import { GraphQLResolver } from "~lib/module/types";
 
 export const resolvers: GraphQLResolver = {
     Query: {
-        example: () => ""
+        example: () => "Hello, frontend from backend."
     }
 }
 
